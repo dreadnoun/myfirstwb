@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(3, 1, 10);
+}
+h2,h3 {
+    text-align: center;
+    color: white;
+}
+p {
+    color: gray;
+}
+table {
+    border: 2px solid gray;
+    color: gray;
+}
+th{
+    border: 2px solid gray;
+    color: gray;
+}
+td{
+    border: 2px solid gray;
+    color: gray;
+}
+table, th, td{
+    border-collapse: collapse;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+;
+}
+.video__item{
+    width: 400px;
+}
+.video_item{
+    width: 400px;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+fieldset{
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+h1{
+
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;
+    text-align: left;
+}
+button{
+    text-align: right;
+}
